@@ -114,7 +114,7 @@ function CreateTab(Name)
 	Title.TextSize = 22.000
 	Title.TextWrapped = true
 
-	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(215, 175, 255))}
+	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(165, 0, 0))}
 	UIGradient.Rotation = 90
 	UIGradient.Parent = Title
 
@@ -164,7 +164,7 @@ function CreateToggle(Parent, Name, DefaultValue, CallBack)
 		else
 			spawn(function()
 				CallBack(true)
-				UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 0, 0))}
+				UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(165, 0, 0))}
 			end)
 		end
 	end
@@ -197,7 +197,7 @@ function CreateToggle(Parent, Name, DefaultValue, CallBack)
 	LayoutOrder = Toggle.LayoutOrder
 	DefaultLayoutOrder = LayoutOrder
 
-	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 0, 0))}
+	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(165, 0, 0))}
 	UIGradient.Rotation = 90
 	UIGradient.Parent = Toggle
 
@@ -236,7 +236,7 @@ function CreateMiniToggle(Parent, Name, DefaultValue, LayoutOrder, CallBack)
 		else
 			spawn(function()
 				CallBack(true)
-				UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(215, 175, 255))}
+				UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(165, 0, 0))}
 			end)
 		end
 	end
@@ -266,7 +266,7 @@ function CreateMiniToggle(Parent, Name, DefaultValue, LayoutOrder, CallBack)
 	MiniToggle.TextSize = 14.000
 	MiniToggle.LayoutOrder = LayoutOrder
 
-	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(215, 175, 255))}
+	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(165, 0, 0))}
 	UIGradient.Rotation = 90
 	UIGradient.Parent = MiniToggle
 
@@ -319,7 +319,7 @@ function CreateSlider(Parent, Name, DefaultValue, MaximumValue, LayoutOrder, Cal
 	UICorner2.CornerRadius = UDim.new(0, 12)
 	UICorner2.Parent = Fill
 
-	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(195, 135, 255))}
+	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(165, 0, 0))}
 	UIGradient.Parent = Fill
 
 	Bar.Name = "Bar"
@@ -343,7 +343,7 @@ function CreateSlider(Parent, Name, DefaultValue, MaximumValue, LayoutOrder, Cal
 	UICorner3.CornerRadius = UDim.new(0, 12)
 	UICorner3.Parent = Bar
 
-	UIGradient2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(195, 135, 255))}
+	UIGradient2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(165, 0, 0))}
 	UIGradient2.Parent = Bar
 
 	Title.Name = "Title"
@@ -359,7 +359,7 @@ function CreateSlider(Parent, Name, DefaultValue, MaximumValue, LayoutOrder, Cal
 	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Title.TextSize = 14.000
 
-	UIGradient3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(215, 175, 255))}
+	UIGradient3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(165, 0, 0))}
 	UIGradient3.Rotation = 90
 	UIGradient3.Parent = Title
 
